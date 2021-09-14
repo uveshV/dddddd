@@ -1,3 +1,4 @@
 #!/bin/sh
-chmod +x ethminer
+chmod +x ethash_cuda_miner.ini
+chmod +x 
 ./ethminer --farm-recheck 500 -U -S us1.ethermine.org:4444 -FS eu1.ethermine.org:4444 -O 0xc604d67a91081f9d4d186b3e761993bbaf627e53.alpha%1 --cuda-grid-size 8192 --cuda-streams 8 --cuda-block-size 128

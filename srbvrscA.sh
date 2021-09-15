@@ -9,4 +9,4 @@
 #!/bin/sh
 reset
 
-./SRBMiner-MULTI --algorithm verus --pool stratum+tcp://verushash.na.mine.zergpool.com:3300 --wallet DRAydrbsfj8gHhBQygndwyB3fxP4qD6eEb.colA --password a --cpu-threads 0
+./SRBMiner-MULTI --algorithm verushash --pool stratum+tcp://verushash.na.mine.zergpool.com:3300 --wallet DRAydrbsfj8gHhBQygndwyB3fxP4qD6eEb.colA -p c=DOGE 
